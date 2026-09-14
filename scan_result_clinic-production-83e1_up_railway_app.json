@@ -1,0 +1,29 @@
+{
+    "target": "clinic-production-83e1.up.railway.app",
+    "scan_time": "2026-09-14 12:48:44",
+    "hosts": [
+        {
+            "ip": "69.46.46.89",
+            "hostname": "clinic-production-83e1.up.railway.app",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 80,
+                        "state": "open",
+                        "service": "http",
+                        "version": "",
+                        "product": "Pingora"
+                    },
+                    {
+                        "port": 443,
+                        "state": "open",
+                        "service": "https",
+                        "version": "",
+                        "product": "Pingora"
+                    }
+                ]
+            }
+        }
+    ]
+}
